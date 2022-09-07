@@ -829,6 +829,7 @@ MonoBehaviour:
   - {fileID: 1426345011}
   - {fileID: 980276585}
   - {fileID: 281239244}
+  cutParticle: {fileID: 2521432875706849781}
 --- !u!1 &571986338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3049,6 +3050,11 @@ PrefabInstance:
     - {fileID: 3304551462114652574, guid: 60bee69690a8f408b99bace3b670aa26, type: 3}
     - {fileID: 3304551462113522526, guid: 60bee69690a8f408b99bace3b670aa26, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 60bee69690a8f408b99bace3b670aa26, type: 3}
+--- !u!198 &2521432875706849781 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 201623211735526488, guid: 60bee69690a8f408b99bace3b670aa26, type: 3}
+  m_PrefabInstance: {fileID: 2521432875706849780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2627707227678599805
 Transform:
   m_ObjectHideFlags: 0

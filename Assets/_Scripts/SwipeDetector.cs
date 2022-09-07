@@ -39,12 +39,10 @@ public class SwipeDetector : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if ( eventData.position.y-2 < prevPos.y)
         {
-            print("moveDown");
             TouchMovement?.Invoke(true);
         }
         else if(eventData.position.y + 2 > prevPos.y)
         {
-            print("moveUP");
             TouchMovement?.Invoke(false);
         }
         prevPos = eventData.position;
